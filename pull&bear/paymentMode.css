@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+}
+#orderSummary {
+    background-color: whitesmoke;
+    width: 365px;
+    height: 620px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#leftdiv {
+    width: 80%;
+}
+#mainHeading {
+    text-align: center;
+}
+#homeDelivery {
+    text-align: center;
+    border: 1px solid #dadada;
+    width: 90%;
+    margin: 150px auto;
+    display: flex;
+}
+#homeDelivery>img {
+    height: 52px;
+    padding-top: 30px;
+}   
+#homeDelivery:hover {
+    cursor: pointer;
+}
+#terms{
+    text-align: right;
+    padding: 65px 20px 20px;
+    color: gray;
+    text-decoration: underline;
+}
+input {
+    height:30px; 
+    width:30px;
+    margin-left: 5px;
+}
+h1 {
+    font-size: 40px;
+    display: inline;
+}
+h1:hover {
+    cursor: pointer;
+}
+
+#debit {
+    width: 50%;
+}
+#paypal {
+    width: 50%;
+    border-left: 1px solid #dadada;
+}
+
+#mainHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact,#heading,#back:hover {
+    cursor: pointer;
+}
+
+
+header {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+hr {
+    width: 90%;
+}
+
+#productInfo {
+height: 70%;
+overflow-y: scroll;
+}
+
+#total {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 17%;
+    background-color: #f6f6f6;
+}
+
+#product {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+#productImage > img {
+    height: 150px;
+    width: 100px;
+}
+
+#productImage {
+    padding: 10px;
+}
+
+#productSize {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center
+}
+
+
+
+#productColour {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center;
+}
+
+#productQuantity {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center;
+}
+
+
+#productFilters {
+    display: flex;
+}
+
+#productDetails > h3{
+    text-align: right;
+}

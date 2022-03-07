@@ -1,0 +1,162 @@
+.container {
+    display: flex;
+}
+#orderSummary {
+    background-color: whitesmoke;
+    width: 365px;
+    height: 620px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+#leftdiv {
+    width: 80%;
+}
+#terms>p{
+    text-align: right;
+    padding: 160px 20px 20px;
+    color: gray;
+    text-decoration: underline;
+}
+h1 {
+    font-size: 40px;
+}
+h1:hover {
+    cursor: pointer;
+}
+
+input {
+    border: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: 40%;
+    margin: 20px 20px 50px;
+    padding: 10px;
+}
+
+#month, #year, #cvv {
+    width: 10%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+button {
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+#return:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+
+#return {
+    background-color: white;
+    border: 1px solid black;
+}
+#continue {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+
+#mainHeading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#contact,#heading,#back:hover {
+    cursor: pointer;
+} 
+
+#homeDelivery {
+    margin-top: 50px;
+}
+
+
+header {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+hr {
+    width: 90%;
+}
+
+#productInfo {
+height: 70%;
+overflow-y: scroll;
+}
+
+#total {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 17%;
+    background-color: #f6f6f6;
+}
+
+#product {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+#productImage > img {
+    height: 150px;
+    width: 100px;
+}
+
+#productImage {
+    padding: 10px;
+}
+
+#productSize {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center
+}
+
+
+
+
+#productColour {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center;
+}
+
+#productQuantity {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center;
+}
+
+
+#productFilters {
+    display: flex;
+}
+
+#productDetails > h3{
+    text-align: right;
+}

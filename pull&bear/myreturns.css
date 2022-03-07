@@ -1,0 +1,155 @@
+.mypurchasepage {
+    display: flex;
+    font-family: 'Archivo Narrow', sans-serif;
+
+}
+span{
+    text-decoration: underline;
+}
+
+
+.left-box {
+    width: 70%;
+    height: 700px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.right-box p {
+    font-size: 25px;
+    margin-top: 20%;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    padding: 25px 0;
+    margin-left: 3%;
+}
+
+.right-box>div {
+    margin-left: 3%;
+    line-height: 40px;
+
+}
+
+.logout {
+    width: 95%;
+    height: 45px;
+    margin: 220px 0px 0px 3px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.right-box>svg {
+    cursor: pointer;
+}
+
+.midname {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.midimg {
+    height: 280px;
+    width: 400px;
+    margin: 140px 0px 0px 300px;
+}
+
+.newarrivals {
+    width: 100%;
+    height: 45px;
+    border: 1px solid black;
+    margin-top: 165px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.newarrivals div {
+    width: 150px;
+    height: 15px;
+    margin-left: 430px;
+    margin-top: 10px;
+}
+
+img {
+    margin-left: 120px;
+}
+
+.content-text {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+
+}
+
+.content-text>p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.content-text>h3 {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.text{
+    width: 90%;
+    height: 100%;
+}
+
+.symbol{
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#dashboard{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.hello{
+    border: 1px solid pink;
+    width: 100%;
+    height: 5%;
+    font-size: 25px;
+    margin-top: 20%;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    padding: 25px 0;
+    margin-left: 3%;
+}
+
+.right-box {
+    width: 25%;
+    height: 700px;
+    background-color: #f9f9f9;
+    margin-left: 10%;
+    padding: 10px;
+}

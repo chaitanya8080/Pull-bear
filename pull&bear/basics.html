@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basics</title>
+    <head>
+        <link rel="stylesheet" href="newsee4.css" />  
+ </head>
+    <body>
+<!-- Heading  -->
+        <div id="head">
+            <a id = "heading" href = "manHomePage.html"><h1>PULL&BEAR</h1></a>  
+          </div>
+<!-- Upper Menu Bar -->
+        <div id="b1">
+            <button id="btn2">see all</button>
+            <a href="newclothing.html" target="_parent"> <button id="btn2"> Hoodies</button></a>
+            <a href="basics.html" target="_parent"><button id="btn2">Basics</button></a>
+            <a href="Licensed.html" target="_parent"><button id="btn2">Licensed</button></a>
+            <a href="p&b.html" target="_parent"><button id="btn2">Pull&Bear</button></a>
+        <div id="b2">
+            <button id = "display" onclick="filterDisplay()">See 2</button>
+        <select id = "filter" onchange="filterNumber()">
+            <option>Filter</option>
+            <option value = "low">Low to High</option>
+            <option value = "high">High to Low</option>
+        </select>
+        </div>
+           </div>
+<!-- Display Images -->
+       <div id="container"></div>
+     </body>
+    </html>
+<script src = "basics.js"></script>
+   
+    

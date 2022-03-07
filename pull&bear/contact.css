@@ -1,0 +1,141 @@
+body {
+    overflow-x: hidden;
+}
+
+#container {
+    display: flex;
+    margin: 0px 0px auto auto;
+}
+
+#parallax {
+    background: url("https://static.pullandbear.net/2/static2/itxwebstandard/images/corporative/contact.jpg?20211214040501")
+    fixed;
+}
+
+#parallax-inner {
+    padding-top: 800px;
+    padding-right: 600px;
+}
+
+#email-add {
+    color: #61c777;
+}
+
+#leftdiv {
+    width: 65%;
+}
+
+.page-wrapper {
+    min-height: 100%;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .footer {
+    height: 400px;
+    position: relative;
+    padding: 20px 40px;
+  }
+  
+  
+  
+  .footer-bottom {
+    color: #666d73;
+    text-align: end;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    font-family: Graphik,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 50px;
+    padding-right: 10px;
+    
+    
+  }
+  
+  .footer-bottom:hover {
+    color: black;
+  }
+  
+  .footer-content {
+    height: 460px;
+    display: flex;
+  }
+  
+  .footer-content-left{
+      display: flex;
+      width: 50%;
+      height: 460px;
+  }
+  
+  .footer-content-left>div{
+      width: 33.33%;
+      height: 100%;
+  }
+  
+  .footer-content-left>div>p{
+      color: grey;
+      font-weight: 550;
+      margin-top: 40px;
+      line-height: 1px;
+  }
+  
+  .footer-content-left>div>p:hover{
+      color: black;
+      cursor: pointer;
+  }
+  
+  .footer-content-right{
+      width: 50%;
+      height: 460px;
+  }
+  
+  .footer-content-right>div{
+      width: 100%;
+      height: 130px;
+  }
+  
+  .app{
+      display: flex
+  }
+  #app{
+      height: 45px;
+      width: 130px;
+      margin: 10px;
+      margin-left: 0px;
+      border-radius: 7px;
+  }
+  
+  
+  
+  .payment{
+      display: flex;
+  }
+  
+  .payment>div{
+      height: 35px;
+      width:8%;
+      margin: 20px;
+      margin-left: 0px;
+      border-radius: 5px;
+  }
+  
+  .follow{
+      display: flex
+  }
+  
+  .follow>div{
+      height: 45px;
+      width:45px;
+     cursor: pointer;
+      margin: 20px;
+      margin-left: 0px;
+  }
+  
+  

@@ -1,0 +1,82 @@
+#head{
+   text-align: center;
+}
+
+
+#heading {
+   text-decoration: none;
+   color: black;
+   font-family: 'Archivo Narrow', sans-serif;
+}
+
+#container{
+   display:inline-grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: auto auto auto;
+   grid-gap: 30px;
+   width:90%;
+   height: 400px;
+  margin-left: 80px;
+
+   }
+
+
+#container>div{
+ width:220px;
+ height: 300px;
+ margin-left: 5px;
+ margin-bottom: 70px;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#img{
+width:220px;
+height:300px;
+
+}  
+#name{
+margin-bottom:15px ;
+text-align: center;
+margin-left: auto;
+}
+#price{
+margin-left: 70px;
+}
+#b1{
+margin-bottom: 10px;
+margin-left: 300px;
+}
+#filter{
+padding:5px 10px;
+border-radius: 8px;
+}
+#btn2:hover{
+border:2px solid black;
+}
+#b2{
+margin-bottom: 10px;
+margin-left: 600px;
+}
+#sel{
+   margin-left: 50px;
+}
+#addbtn{
+   background-color: black;
+   color:white;
+}
+
+#display{
+   padding:10px 15px;
+   border-radius: 8px;
+   border:transparent;
+  }
+  
+  #display:hover{
+   border:2px solid black;
+  }
+
+  #btn2{
+   padding:10px 15px;
+   border-radius: 8px;
+   border:transparent;
+  }

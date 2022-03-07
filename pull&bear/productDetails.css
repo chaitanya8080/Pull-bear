@@ -1,0 +1,118 @@
+#head{
+    text-align: center;
+ }
+         .container{
+             width: 95%;
+             display: grid;
+             grid-template-rows: 500px 500px;
+             grid-template-columns: repeat(3,1fr);
+             grid-gap: 2px;
+             margin: auto;
+             grid-template-areas: 
+             "a b c"
+             "d e c";
+         }
+
+         .box1{
+             grid-area: a;
+         }
+         .box2{
+             grid-area: b;
+         }
+         .box3{
+             grid-area: c;
+         }
+         .box4{
+             grid-area: d;
+         }
+         .box5{
+             grid-area: e;
+         }
+         .image{
+             width:100%;
+             height:100%;
+         }
+         .sidebar{
+             height: 800px;
+             width: 380px;
+             margin-top: 20px;
+             margin: auto;
+            
+         }
+         .sidebar>.text1{
+             font-size: x-large;
+             font-weight: bold;
+             margin-top: 30px;
+         }
+         .flexbtn{
+             display: flex;
+             height: 60px;
+             width: 100%;
+         }
+         .flexbtn>button{
+             width: 30%;
+             height: 100%;
+          
+         }
+         .size:hover{
+           border:2px solid black;
+          }
+         .addto{
+              margin-top: 30px;
+             height: 60px;
+             width: 100%;
+             background-color:black ;
+             align-items: center;
+             padding-top: 8px;
+          
+              }
+         #font{
+             color: white;
+             font-weight: bold;
+             text-align: center;
+         }
+         #middiv{
+        margin-top: 20px;
+         }
+         .addto:hover{
+             background-color: rgb(230, 42, 83);
+         }
+         #more{
+             height:300px;
+         }
+         #more>div{
+             border:1px solid black;
+             height:75px;
+         }
+         #more>div>h6{
+             margin-left: 20px;
+         }
+    
+ 
+         @media only screen and (min-width: 375px) and (max-width: 768px) {
+         .container {
+           grid-template-rows: repeat(6,500px);
+           grid-template-columns: repeat(1, 1fr);
+           grid-gap: 10px;
+           grid-template-areas: 
+             "a"
+             "b"
+             "d"
+             "e"
+             "c"
+             "c";
+         }
+       }
+       @media only screen and (min-width: 0px) and (max-width: 375px) {
+         .container {
+             grid-template-rows: repeat(3, 400px);
+           grid-template-columns: repeat(1, 300px);
+           grid-gap: 5px;
+           width: 100%;
+           grid-template-areas: 
+             "a "
+             "b "
+             "c";
+         }
+     }
+         

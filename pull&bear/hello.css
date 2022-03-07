@@ -1,0 +1,93 @@
+.helloarea{
+    margin-top: -5px;
+    margin-left: 980px;
+    margin-bottom: 200px;
+    background-color: transparent;
+    position: relative;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.hellobox{
+
+    width: 350px;
+    height: 400px;
+    position: fixed;
+    background-color: white;
+    padding: 8px;
+    overflow: hidden;
+    margin-top: -180px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    
+}
+
+.helloheader{
+    display: flex;
+    width: 364px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: -8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.helloword{
+    width: 60px;
+    height: 40%;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.cancelbutton{
+    margin-inline-start: auto;
+    padding: 1px 0px;
+    
+}
+
+.cancelbutton button{
+    border: 0;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logout{
+    height: 50px;
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+#dashboard{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.text{
+    width: 90%;
+    height: 100%;
+    padding: 5px 10px -10px 0px;
+}
+
+.symbol{
+    width: 10%;
+    height: 100%;
+}

@@ -1,0 +1,247 @@
+.container {
+    display: flex;
+}
+#orderSummary {
+    background-color: whitesmoke;
+    width: 365px;
+    height: 620px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#leftdiv {
+    width: 80%;
+}
+#mainHeading {
+    text-align: center;
+}
+#privacyterms{
+    text-align: right;
+    padding: 250px 20px 20px;
+    color: gray;
+    text-decoration: underline;
+}
+h1 {
+    font-size: 40px;
+}
+h1:hover {
+    cursor: pointer;
+}
+
+#homeDelivery>h3 {
+    padding-left: 40px;
+}
+
+#return {
+    background-color: white;
+    border: 1px solid black;
+}
+#continue {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+#return {
+    background-color: white;
+    border: 1px solid black;
+}
+#confirm {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+button {
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#return:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+
+svg {
+    display: inline;
+}
+
+#standard {
+    display: flex;
+    border: 1px solid gray;
+    width: 90%;
+    margin: auto;
+}
+
+#addressDiv {
+    width: 90%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 10px;
+}
+
+#imgDiv {
+    width: 3%;
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+#imgDiv > svg {
+    width: 100%;
+}
+
+#paypal {
+    display: flex;
+    border: 1px solid gray;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#addressDiv > img {
+    width: 5%;
+    display: inline;
+}
+
+#addressDiv > p {
+    display: inline;
+    padding-bottom: 20px;
+}
+
+#terms>p{
+    display: inline;
+    font-size: 13px;
+    color: gray;
+    font-style: italic;
+}
+
+#terms {
+    padding: 50px 0px 
+}
+
+#terms>input {
+    margin-left: 30px;
+}
+
+#terms > h3{
+    padding-left: 30px;
+}
+#terms>button {
+    margin-left: 30px;
+}
+span {
+    color: black;
+    text-decoration: underline;
+}
+
+#checkbox {
+    padding-left: 90%;
+}
+
+#homeDelivery {
+    margin-bottom: 50px;
+}
+
+#promo {
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#mainHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact,#heading,#back:hover {
+    cursor: pointer;
+}
+
+header {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+hr {
+    width: 90%;
+}
+
+#productInfo {
+height: 70%;
+overflow-y: scroll;
+}
+
+#total {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 17%;
+    background-color: #f6f6f6;
+}
+
+#product {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+#productImage > img {
+    height: 150px;
+    width: 100px;
+}
+
+#productImage {
+    padding: 10px;
+}
+
+#productSize {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center
+}
+
+
+
+
+#productColour {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center;
+}
+
+#productQuantity {
+    width: 30%;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 5%;
+    height: 20px;  
+    text-align: center;
+}
+
+
+#productFilters {
+    display: flex;
+}
+
+#productDetails > h3{
+    text-align: right;
+}
+
+#apply {
+    margin-left: 30%;
+    background-color: black;
+    color: white;
+    border: 0;
+}

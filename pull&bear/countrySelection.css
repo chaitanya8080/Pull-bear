@@ -1,0 +1,91 @@
+body {
+    line-height: 1px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+img {
+    margin: 0px 0px -190px; 
+}
+
+#mainImage {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80%;
+    margin: -35% auto;
+    text-align: center;
+}
+
+#pull_bear {
+    grid-area: 1/1/2/5;
+    letter-spacing: 1em;
+    width: 90%;
+}
+
+#rememberSelect{
+background-color: white;
+height: 35px;
+padding: 0px 0px 15px;
+font-size: 14px;
+width: 90%
+}
+
+#remember {
+    padding-right: 20px;
+}
+
+
+
+button:hover {
+    background-color: #67d39e;
+}
+h1 {
+    font-size: 150px;
+    color: white;
+}
+select, button {
+    height: 50px;
+    width: 150px;
+    width: 90%;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 375px){
+    #container {
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #pull_bear {
+        grid-area: 1/1/2/2;
+    } 
+}
+
+button {
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    border: 0;
+    width: 50%;
+    margin: 0px 0px 0px -150px;
+}
+
+input {
+    height: 25px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+select {
+    text-transform: uppercase;
+}
+
+
+#arrow {
+    transform: rotate(-90deg); 
+}

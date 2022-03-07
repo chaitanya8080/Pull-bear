@@ -1,0 +1,34 @@
+#container {
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+#container >div {
+    text-align: center;
+    position: relative;
+}
+
+img {
+    margin: 0px 0px -395px;
+}
+
+h1{
+    color: white;
+}
+
+#genderMan {
+    margin: -45% 5% auto auto;
+    transform: rotate(90deg);
+    font-size: 25px;
+}
+
+#genderWoman {
+    margin-top: -45%;
+    transform: rotate(90deg);
+    margin-bottom: 31%;
+    font-size: 25px;
+}
+
